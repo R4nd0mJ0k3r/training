@@ -1,6 +1,6 @@
 ## Programming Introduction
 
-It important to have a good understanding and consistently apply the basic fundamentals of programming. We would like you to run through the following courses:
+It important to have a good understanding of, and the ability to consistently apply the basic fundamentals of programming. We would like you to run through the following courses:
 
 - **Basic Javascript**  
 [https://www.codecademy.com/courses/learn-javascript](https://www.codecademy.com/courses/learn-javascript)
@@ -31,9 +31,9 @@ Our current stack is as follows
 • Elasticsearch 1.5.2  
 • Amazon Elastic Beanstalk, EC2 and RDS (Production instances)  
 
-We are currently using [PHPStorm IDE](https://www.jetbrains.com/phpstorm/) (download the demo, and request a full license from our team) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use either docker, vagrant or MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks
+We are currently using [PHPStorm IDE](https://www.jetbrains.com/phpstorm/) - download the demo, and request a full license from our team. You can follow some of their getting started video tutorials, showcasing all the amazing things it does. Most of the dev team use either docker, vagrant or MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/Macbooks.
 
-You can full reference to development enviroment in [SETUP.md](SETUP.md)
+You can view the full reference for the development enviroment in [SETUP.md](SETUP.md)
 
 **Backend**
 
@@ -53,25 +53,25 @@ You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
 ## Github
 
-In addition we use [github.com](https://github.com/warrantgroup) and git for source code versioning, create a free github.com account, try creating a repository, have a play committing file, creating branches or merging either on command line or through PHPStorm. 
+In addition we use [github.com](https://github.com/warrantgroup) and git for source code versioning. Create a free github.com account, try creating a repository, have a play committing file, creating branches and merging. You can do this on the command line, but we recommend getting aquainted with performing these functions through PHPStorm, as this can greatly simplify your git workflow. 
 
-We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), which discusses feature branching, and creating pull requests .
+We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), which discusses feature branching, and creating pull requests.
 
 ## Agile Methodology
 
-We have standups in the morning with all members of the IT department (development and support), it good to know what team is working on, and any blockers can be raised early.
+We have standups in the morning with all members of the IT department (development and support) - it good to know what team is working on, and any blockers can be raised early.
 
 For a typical development feature:
 
-- Pick a story from the sprint backlog on [Pivotal Tracker](https://www.pivotaltracker.com)
-- Create a new feature branch from ``develop`` branch, feature branch must include the story ID
-- Create pull request on github for code review, or assistance. 
-- Once story has been accepted the feature branch can be merged into ``develop`` branch
+- Pick a story from the sprint backlog on [Pivotal Tracker](https://www.pivotaltracker.com).
+- Create a new feature branch from ``develop`` branch - the feature branch must include the story ID.
+- Create pull request on github for code review, or assistance.
+- Once story has been accepted the feature branch can be merged into ``develop`` branch.
 - Once ``develop`` is stable, we merge to ``master`` branch and CI (continous intergration) teamcity servers automatically deploy to production.
 
 ## Training
 
-Each employee has a training budget, which can be used to purchase books, courses or material which will assist in your developments.
+Each employee has a training budget, which can be used to purchase books, courses or material which will assist in your development.
 
 Every year we attend the PHP Northwest Conference which has inspiring content from speakers from all around the globe, valuable opportunities to network with the PHP community.
 
